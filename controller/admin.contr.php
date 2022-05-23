@@ -65,7 +65,7 @@ if (isset($_POST['submitLog'])) {
 
 		foreach ($allAdmin as $mailAdmin ) {
 			#	
-			if ($mail == $mailAdmin['adresse_email']) {
+			if ($mail == $mailAdmin['adresse_mail']) {
 					$mail_valid = $mail;
 				}	
 		}
